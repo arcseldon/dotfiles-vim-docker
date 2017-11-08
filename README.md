@@ -33,7 +33,6 @@ Sort out the breaking changes porting from MacOS to Ubuntu 16
 - docker run [ image name ]
 - docker images
 - docker ps
-- 
 - docker rmi
 - docker ps -a
 - docker rm
