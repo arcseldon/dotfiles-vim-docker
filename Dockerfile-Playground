@@ -1,0 +1,14 @@
+FROM arcseldon/dotfiles-vim
+
+MAINTAINER arcseldon <arcseldon@gmail.com>
+
+USER vimuser
+
+WORKDIR /home/vimuser/playground
+
+RUN mkdir -p /home/vimuser/playground
+
+COPY ./vimrc_private /home/vimuser/.vim
+
+COPY . /home/vimuser/playground
+
